@@ -87,7 +87,7 @@ import axios from 'axios'
                                 className='form-control form-group'
                                 />
                                 
-                                <input type='text'
+                                <input type='password'
                                 placeholder='Password'
                                 onChange={this.changePassword}
                                 value={this.state.password}
