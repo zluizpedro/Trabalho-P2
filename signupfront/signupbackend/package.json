@@ -1,10 +1,13 @@
 {
   "name": "signupbackend",
+  "homepage": "https://github.com/maliavitorino/Trabalho-P2.git",
   "version": "1.0.0",
-  "description": "Sign Up Application",
+  "description": "Cadastro de Usuários",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Luiz Pedro Ferreira, Maria Angela Vitorino",
   "license": "ISC",

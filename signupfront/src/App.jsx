@@ -67,14 +67,14 @@ import axios from 'axios'
                         <div className='form-div'>
                             <form onSubmit={this.onSubmit}>
                                 <input type = 'text'
-                                placeholder='Full Name'
+                                placeholder='Nome Completo'
                                 onChange={this.changeFullName}
                                 value={this.state.fullName}
                                 className='form-control form-group'
                                 />
 
                                 <input type='text'
-                                placeholder='Username'
+                                placeholder='Apelido'
                                 onChange={this.changeUsername}
                                 value={this.state.username}
                                 className='form-control form-group'
@@ -87,8 +87,8 @@ import axios from 'axios'
                                 className='form-control form-group'
                                 />
                                 
-                                <input type='password'
-                                placeholder='Password'
+                                <input type='Password'
+                                placeholder='Senha'
                                 onChange={this.changePassword}
                                 value={this.state.password}
                                 className='form-control form-group'
